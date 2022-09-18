@@ -1,0 +1,184 @@
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+    padding: 0;
+}  
+.vegas-overlay {
+	background: transparent url(overlays.png);
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.vegas-background {
+    max-width: none ;
+	z-index: -2;
+}
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color:#f1f1f1;
+  background:rgba(0, 0, 0, 0.48);
+}
+h1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 4em; 
+    font-family: 'bad Script',cursive;
+    }
+h1 span
+    {
+        display: table-cell;
+        margin: 0;
+        padding: 0;
+        animation: animate 1.5s linear infinite;
+    }
+h1 span:nth-child(1)
+    {
+        animation-delay: 0s;
+    }
+h1 span:nth-child(2)
+    {
+        animation-delay: 0.10s;
+    }
+h1 span:nth-child(3)
+    {
+        animation-delay: 0.20s;
+    }
+h1 span:nth-child(4)
+    {
+        animation-delay: 0.30s;
+    }
+h1 span:nth-child(5)
+    {
+        animation-delay: 0.40s;
+    }
+h1 span:nth-child(6)
+    {
+        animation-delay: 0.50s;
+    }
+h1 span:nth-child(7)
+    {
+        animation-delay: 0.60s;
+    }
+h1 span:nth-child(8)
+    {
+        animation-delay: 0.60s;
+    }
+h1 span:nth-child(9)
+    {
+        animation-delay: 0.70s;
+    }
+h1 span:nth-child(10)
+    {
+        animation-delay: 0.80s;
+    }
+h1 span:nth-child(11)
+    {
+        animation-delay: 0.90s;
+    }
+h1 span:nth-child(12)
+    {
+        animation-delay: 1s;
+    }
+
+    
+    @keyframes animate{
+        0%,100%{
+            color: #7CFC00;
+            filter:blur(0px);
+            text-shadow: none;
+            
+        }  
+         5%,95%{
+            color: #fff;
+            filter:blur(0px);
+            text-shadow: none;
+        }  
+    }  
+    
+    
+.button1{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 30px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.button1:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 1s;
+}
+.button1 span{
+  position: absolute;
+  display: block;
+}
+.button1 span:nth-child(1)  {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+}
+.button1:hover span:nth-child(1) {
+  left: 100%;
+  transition: 0.9s;
+}
+.button1 span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3);
+}
+.button1:hover span:nth-child(3) {
+  right: 100%;
+  transition: 2s;
+  transition-delay: 0.5s;
+}
+.button1 span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3);
+}
+.button1:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.button1 span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3);
+}
+.button1:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+.logo{
+        height: 30%;
+    }
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}

@@ -1,0 +1,46 @@
+ .btw{
+            background: linear-gradient(#F1F1F1,#262626);
+            height: 290px;
+        }  
+        .btwimg{
+            padding-left: 4px;
+            margin: 20px;
+            float: left; 
+            height: 250px;
+        }
+        .btwp{
+             margin-right: 100px;
+             margin-left: auto;
+             padding-left: 15px;;
+             padding-right: 15px;
+             max-width: 750px;
+        }
+        p1{
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            font-size: 21px;
+            text-decoration-style: dashed;
+            color:  #008aff;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        p2{
+            text-align: justify;
+             letter-spacing: 1px;
+            text-transform: capitalize;
+            font-size: 18px;
+            text-decoration-style: dashed;
+            color:  #fff;
+            font-style: italic;
+            font-family: sans-serif;
+        }
+        .p2{
+            text-align: justify;
+             letter-spacing: 1px;
+            text-transform: capitalize;
+            font-size: 18px;
+            text-decoration-style: dashed;
+            color: lightgreen;
+            font-style: italic;
+            font-family: sans-serif;
+        }

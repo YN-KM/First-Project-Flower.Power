@@ -1,0 +1,38 @@
+#nav {
+
+border-radius:0px;
+background-color: rgba(0, 0, 0, 0.6);
+position: relative;
+z-index: 1000;
+min-height: 50px;
+border: 1px solid transparent; 
+}
+.loader{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 3em; 
+    font-family: 'bad Script',cursive;
+    
+        }
+.loader span{
+    display: table-cell;
+        margin: 0;
+        padding: 0;
+        animation: animate2 2.5s linear infinite;
+        }
+        @keyframes animate2{
+             0%,100%{
+            color: #FF0000;
+            filter:blur(0px);
+            text-shadow: none;
+            
+        }  
+         5%,95%{
+            color: #fff;
+            filter:blur(0px);
+            text-shadow: none;
+        }  
+    } 
